@@ -995,7 +995,7 @@ async function settingsSetup() {
       setValue('devmode', false);
     }
   });
-  setValue('fastmove', false);
+  setValue('fastmove', true);
 }
 settingsSetup();
 
